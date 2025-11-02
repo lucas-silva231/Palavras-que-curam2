@@ -126,6 +126,7 @@ section {
 .junte {
   background-color: #8BC34A;
   color: white;
+  padding: 60px 20px;
 }
 
 .junte .btn {
@@ -158,4 +159,21 @@ footer {
   padding: 30px 20px;
   text-align: center;
   font-size: 0.9em;
+}
+
+.btn {
+  display: inline-block;
+  background-color: white; /* cor do fundo */
+  color: green; /* cor do texto */
+  padding: 12px 30px; /* tamanho interno do botão */
+  border: none;
+  border-radius: 50px; /* 🔹 arredonda as bordas */
+  text-decoration: none; /* tira o sublinhado */
+  font-weight: bold;
+  transition: all 0.3s ease; /* animação suave */
+}
+
+.btn:hover {
+  background-color: #d9f2d9; /* cor quando passa o mouse */
+  transform: scale(1.05); /* leve aumento ao passar o mouse */
 }
